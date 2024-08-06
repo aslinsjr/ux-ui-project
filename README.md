@@ -1,8 +1,25 @@
-# React + Vite
+# Projeto da Aula UX/UI - FAP Softex
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este é o resultado do trabalho em grupo proposto durante as aulas de noções de UI/UX no curso de Formação Acelerada em Programação promovido pela Softex PE. 
 
-Currently, two official plugins are available:
+## Grupo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Alexandre Lins
+- Silas Alexandre
+
+### Screenshot
+
+![](./public/screenshot.png)
+
+### Links
+
+- Solution URL: [Repository](https://github.com/aslinsjr/ux-ui-project)
+- Live Site URL: [Page](https://ux-ui-project.vercel.app/)
+
+##  Desenvolvido com
+
+- HTML5
+- CSS3
+- React.js
+
+
