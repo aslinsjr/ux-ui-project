@@ -51,3 +51,25 @@ nav {
     display: none;
 }
 
+@media screen and (max-width: 500px) {
+    nav {
+        max-width: 400px;
+        padding: 1rem;
+        margin: 0;
+    }
+
+    #mobile-icon {
+        display: flex;
+    }
+
+    .nav-links {
+        width: auto;
+        height: auto;
+        display: none;
+        position: absolute;
+        flex-direction: column;
+        right: 0;
+        top: 15vh;
+        backdrop-filter: blur(1rem);
+    }
+}

@@ -47,3 +47,15 @@ a {
   
 }
 
+@media screen and (max-width: 500px) {
+
+  #background {
+    display: none;
+  }
+
+  body {
+    width: 400px;
+    height: 100%;
+  }
+
+}

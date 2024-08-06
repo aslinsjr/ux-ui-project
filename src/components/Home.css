@@ -61,3 +61,27 @@
     }
 }
 
+@media screen and (max-width: 500px) {
+    .home-container {
+        max-width: 400px;
+        padding: 0.5rem;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .logo-container {
+        margin: 0;
+    }
+
+    .logo-container h1 {
+        font-size: 3rem;
+    }
+
+    .logo-container h1 img {
+        width: 3rem;
+    }
+
+    #capsula {
+        margin: 0;
+    }
+}

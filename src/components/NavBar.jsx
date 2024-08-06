@@ -10,10 +10,10 @@ const NavBar = () => {
   function handleClick(e) {
     if(clicked) {
       setClicked(false)
-      e.target.src = 'public/icon-hamburger.svg'
+      e.target.src = 'public/icon-menu.svg'
     }else {
       setClicked(true)
-      e.target.src = 'public/icon-close.svg'
+      e.target.src = 'public/icon-menu-close.svg'
     }
   }
 
@@ -23,7 +23,7 @@ const NavBar = () => {
             <img src="/logo-white.png" alt="Logo" />
         </div>
         <div className="line"></div>
-        <img id="mobile-icon" onClick={(e) => handleClick(e)} src="public/icon-hamburger.svg" alt="Mobile Menu" />
+        <img id="mobile-icon" onClick={(e) => handleClick(e)} src="public/icon-menu.svg" alt="Mobile Menu" />
         <div className="nav-links" style={clicked ? {display: 'flex'} : {}}>
             <Link to="/">
               <p><span>00</span> Home</p>
