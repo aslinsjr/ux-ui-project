@@ -1,0 +1,27 @@
+.services-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-container {
+    padding: 0 4rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.image-container p {
+    width: 40vw;
+    margin-left: 10vw;
+    line-height: 160%;
+    font-weight: 300;
+    font-size: 1.2rem;
+    transition: 1s;
+}
+
+.image-container img {
+    width: 10%;
+    transition: 1s;
+}

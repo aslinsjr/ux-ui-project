@@ -1,0 +1,53 @@
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem 2rem;
+    margin: 2rem;
+    gap: 1rem;
+}
+
+.brand-logo img {
+    width: 50px;
+}
+
+.line {
+    width: 50%;
+    border: 1px solid var(--secondary-color);
+}
+
+.nav-links {
+    justify-content: center;
+    flex: 1;
+    display: flex;
+    gap: 2rem;
+    position: relative;
+    padding: 2rem 0.5rem;
+}
+
+.nav-links span {
+    font-weight: bolder;
+    color: var(--secondary-color);
+}
+
+.nav-links p {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.nav-links a {
+    color: aliceblue;
+    letter-spacing: 0.2rem;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    transition: 0.2s;
+}
+
+.nav-links a:hover {
+    transform: scale(1.1);
+}
+
+#mobile-icon {
+    display: none;
+}
+

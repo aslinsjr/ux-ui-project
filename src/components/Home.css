@@ -1,0 +1,63 @@
+.home-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 4rem;
+}
+
+.logo-container {
+    max-width: 40%;
+    color: aliceblue;
+    animation: fadeIn 1s;
+    transition: 1s;
+}
+
+.logo-container h2 {
+    text-transform: uppercase;
+    font-size: 1rem;
+    letter-spacing: .2rem;
+    padding-left: 1rem;
+}
+
+.logo-container h1 {
+    display: flex;
+    align-items: center;
+    font-size: 7rem;
+    margin: 1rem 0;
+    text-transform: uppercase;
+    letter-spacing: 1rem;
+}
+
+.logo-container h1 img {
+    width: 7rem;
+}
+
+.logo-container p {
+    line-height: 160%;
+    letter-spacing: 0.1rem;
+    padding-left: 1rem;
+}
+
+#capsula {
+    transition: 3s;
+    animation: pulse 3s infinite;
+    margin-right: 20vw;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(0.8);
+        opacity: 0.5;
+    }
+  
+    50% {
+        transform: scale(0.9);
+        opacity: 1;
+    }
+
+    100% {
+        transform: scale(0.8);
+        opacity: 0.5;
+    }
+}
+

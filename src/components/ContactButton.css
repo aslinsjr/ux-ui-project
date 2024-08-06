@@ -1,0 +1,26 @@
+#contact-us {
+    width: 100px;
+    gap: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 2rem;
+    right: 2rem;
+    font-size: 2rem;
+    cursor: pointer;
+    opacity: 0.3;
+    transition: 0.5s;
+}
+
+
+#contact-us:hover {
+    opacity: 1;
+}
+
+#contact-us p {
+    font-size: 0.8rem;
+    width: 100%;
+    min-height: 1rem;
+}

@@ -1,0 +1,36 @@
+.plans-container {
+    animation: fadeIn 1s;
+    transition: 1s;
+    padding: 0 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.plan-description {
+    display: flex;
+    flex-direction: column;
+    padding: 0 2rem;
+    gap: 1rem;
+    position: relative;
+}
+
+.plan-description p {
+    line-height: 160%;
+    font-weight: 300;
+    font-size: 1.2rem;
+    margin-left: 4rem;
+}
+
+.plan-description button {
+    position: absolute;
+    right: 5rem;
+    bottom: -2rem;
+    padding: 1rem 2rem;
+    border-radius: 0.5rem;
+    border: none;
+    box-shadow: 0 0 0.5rem 0 white;
+    cursor: pointer;
+    opacity: 0.8;
+    font-weight: bold;
+}

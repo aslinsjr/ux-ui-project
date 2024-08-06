@@ -1,0 +1,76 @@
+.contacts-container {
+    animation: fadeIn 1s;
+    transition: 1s;
+}
+
+.inner-container {
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+    margin-top: 2rem;
+}
+
+.phone-contact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.phone-contact button {
+    background-color: transparent;
+    color: var(--text-color);
+    transition: 1s;
+    font-size: 2rem;
+    padding: 1rem 2rem;
+    border: none;
+    cursor: pointer;
+    filter: drop-shadow(1px 1px 2rem var(--text-color));
+}
+
+.phone-contact button:hover {
+    transform: scale(1.1);
+}
+
+.inner-container form,
+.inner-container label {
+    display: flex;
+    flex-direction: column;
+}
+
+.inner-container label {
+    margin: 0.2rem 0;
+}
+
+.inner-container form {
+    opacity: 0.8;
+    width: 40%;
+}
+
+input {
+    margin: 0.2rem 0;
+    padding: 0.2rem;
+    background-color: rgba(255, 255, 255, 0.7);
+    border: none;
+}
+
+textarea {
+    height: 30vh;
+    background-color: rgba(255, 255, 255, 0.7);
+    border: none;
+}
+
+input[type = 'submit'] {
+    width: 100%;
+    border-radius: 0.5rem;
+    border: none;
+    cursor: pointer;
+    opacity: 0.8;
+    transition: 0.5s;
+    font-weight: bold;
+    padding: 0.3rem 0;
+    text-transform: uppercase;
+    letter-spacing: 0.5rem;
+    color: var(--secondary-text-color);
+}

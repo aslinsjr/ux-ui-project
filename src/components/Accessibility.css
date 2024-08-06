@@ -1,0 +1,50 @@
+.accessibility-container {
+    display: flex;
+    align-items: end;
+    position: fixed;
+    bottom: 10%;
+    left: -200px;
+    transition: 0.5s;
+    opacity: 0.3;
+  }
+  
+  .accessibility-container:hover {
+    opacity: 0.9;
+  }
+  
+  .accessibility-container ul {
+    min-width: 200px;
+    list-style: none;
+    background-color: var(--text-color);
+    color: var(--secondary-text-color);
+    border-radius: 0 0.5rem 0 0;
+  }
+  
+  .accessibility-container li {
+    margin: 1rem;
+    cursor: pointer;
+  }
+  
+  .access-box {
+    width: 50px;
+    padding: 0.5rem 0;
+    background-color: hsl(208,100%,97.06%);
+    color: var(--secondary-text-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: fit-content;
+    border: none;
+    cursor: pointer;
+    border-radius: 0 0.5rem 0.5rem 0;
+    
+  }
+  
+  .access-box i {
+    font-size: 2rem;
+  }
+  
+  .open {
+    left: 0;
+    opacity: 0.9;
+  }
